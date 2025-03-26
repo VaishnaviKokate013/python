@@ -54,28 +54,40 @@
 # print("Tuple:",a)
 
 #Write a program to slice a tuple.
-mytuple=(1,2,3,4,5,6,7,8,9)
-sliced_tuple= mytuple[2:6]
-print("Original tuple:",mytuple)
-print("Slicedtuple:",sliced_tuple)
+# mytuple=(1,2,3,4,5,6,7,8,9)
+# sliced_tuple= mytuple[2:6]
+# print("Original tuple:",mytuple)
+# print("Slicedtuple:",sliced_tuple)
 
-#Perform len(),sum(),max(),min(),operation on python.
+# #Perform len(),sum(),max(),min(),operation on python.
 
-numbers =[1,2,3,4,5]
-length = len(numbers)
-print("length of the list:",length)
+# numbers =[1,2,3,4,5]
+# length = len(numbers)
+# print("length of the list:",length)
 
-numbers =[1,2,3,4,5]
-total = sum(numbers)
-print("Sum of the list:",total)
+# numbers =[1,2,3,4,5]
+# total = sum(numbers)
+# print("Sum of the list:",total)
 
-numbers=[1,2,3,4,5]
-max_value = max(numbers)
-print("Maximum value in the list:",max_value)
+# numbers=[1,2,3,4,5]
+# max_value = max(numbers)
+# print("Maximum value in the list:",max_value)
 
-numbers=[1,2,3,4,5]
-min_value=min (numbers)
-print("Minimum value in the list:", min_value)
+# numbers=[1,2,3,4,5]
+# min_value=min (numbers)
+# print("Minimum value in the list:", min_value)
+
+# to find length of tuple
+# t3=(21,22,23,24,25,26)
+# print('Length',len(t3))
+
+#Write a program that sorts a list of tuples based on their sum.
+
+tuple_list = [(4,5),(2,3)(6,7)(2,8)]
+sorted_list = sorted(tuple_list, key=sum)
+print(sorted_list)
+
+
 
 
          
